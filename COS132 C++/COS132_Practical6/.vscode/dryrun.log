@@ -1,0 +1,8 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/mnt/c/Users/User/Desktop/Tuks/1st Semester/COS 132/C++/practical__6_A90x39b'
+g++ -c main.cpp
+g++ -c dog.cpp
+g++ -c citizen.cpp
+g++ -static dog.o citizen.o main.o -o main
+make: Leaving directory '/mnt/c/Users/User/Desktop/Tuks/1st Semester/COS 132/C++/practical__6_A90x39b'
+ 
